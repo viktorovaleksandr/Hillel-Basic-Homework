@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<header class="price">
+			<p>Back to 
+				<a href="#">Woman</a>
+			</p><br><!-- проблему отступов решил обойти через br -->
+			<h1>The Atelier Tailored Coat</h1><br>
+			<h2>$499.00</h2>
+			<h3>Availability :
+				<span>In stock</span><!-- возможно тут ссылка дожна быть, но задача поставлена была другая -->
+			</h3>
+			<h3>Product Code :
+				<span>#4657</span>
+			</h3>
+			<h3>Tags :
+				<span>Fashion,Hood,Classic</span>
+			</h3><br>
+		</header>	
+		<section class="description">
+			<p>Sleek, polished, and boasting an impeccably modern fit, this blue, 2-but-
+			ton Lazio suit features a notch <span>lapel</span>, flap pockets, and accompanying flat
+			front trousers—all in pure wool by Vitale Barberis Canonico.
+			</p>
+			<ul>
+				<li>Dark blue suit for a tone-on-tone look</li>
+				<li>Regular fit</li>
+				<li>100% Cotton</li>
+				<li>Free shipping with 4 days delivery</li>
+			</ul><br>
+		</section>
+		<form action="#" method="post">
+			<div class="select">
+				<label for="select color">color</label><br>
+				<input type="color" name="select color">
+			</div>
+			<div class="select">
+				<label for="size">size</label><br>
+				<select name="select size">
+					<option value="">Select Size</option>
+  					<option value="s">S</option>
+  					<option value="m">M</option>
+  					<option value="l">L</option>
+  					<option value="xl">XL</option>
+				</select>
+			</div>
+			<div class="select">
+				<label for="number">qty</label><br>
+				<input type="number"  value="1" min="1" max="5" step="1" name="number">
+			</div>
+				<p>
+					<a class="clear_selection" href="#">CLEAR SELECTION</a>
+				</p><br>
+		</form>
+		<footer>
+			<button class="button_black">Add To Cart</button>
+			<button class="button_white">Add To Wishlist</button>
+		</footer>
+	</div>
+</body>
+</html>

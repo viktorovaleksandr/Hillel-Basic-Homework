@@ -1,0 +1,84 @@
+body {
+	background-color: rgb(255,255,255);
+	font-family: 'Arial', sans-serif;
+	letter-spacing: 0.3px;
+}
+.wrapper {
+	width: 425px;
+	margin: 0 auto;
+}
+.price a {
+	text-decoration: none;
+	color: #003366;
+	font-size: 14px;
+	font-weight: bold;
+}
+h1 {
+	font-size: 24px;
+	font-weight: bold;
+}
+h2 {
+	font-size: 24px;
+	font-weight: 300;
+	color: #0066cc;
+}
+h3 {
+	font-size: 14px;
+}
+h3 span {
+	color:rgb(51,51,102);
+}
+.description {
+	font-size: 12px;
+	line-height: 25px;
+	color: rgb(102,102,102);
+}
+.description span {
+	font-weight: bold;
+	color: #000;
+}
+ul {
+	padding-left: 15px;
+}
+.select {
+	display: inline-block;
+	vertical-align: top;
+}
+.select label {
+	font-size: 14px;
+	font-weight: bold;
+	color: #111111;
+	text-transform: uppercase;
+}
+.select input {
+	width: 100px;
+	height: 30px;
+	border: 1px solid #e3e3e3;
+}
+select {
+	width: 100px;
+	height: 33px;
+	border: 1px solid #e3e3e3;
+}
+.clear_selection {
+	color: #663333;
+	font-size: 12px;
+}
+footer button {
+	width: 200px;
+	height: 55px;
+	border: 1px solid #e3e3e3;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.button_black {
+	background: #111111;
+	color: #fff;
+}
+.button_white {
+	background: #fff;
+	color: #111;
+	margin-left: 20px;
+}
