@@ -1,5 +1,4 @@
 body {
-	background-color: rgb(255,255,255);
 	font-family: 'Arial', sans-serif;
 	letter-spacing: 0.3px;
 }
@@ -42,7 +41,6 @@ ul {
 }
 .select {
 	display: inline-block;
-	vertical-align: top;
 }
 .select label {
 	font-size: 14px;
@@ -51,20 +49,36 @@ ul {
 	text-transform: uppercase;
 }
 .select input {
-	width: 100px;
+	width: 70px;
 	height: 30px;
 	border: 1px solid #e3e3e3;
+	font-size: 15px;
+	color: #969696;
+	text-align: center;
+}
+.select input::-webkit-inner-spin-button { 
+  opacity: 1;
+  padding: 10px;
 }
 select {
-	width: 100px;
-	height: 33px;
+	width: 168px;
+	height: 34px;
 	border: 1px solid #e3e3e3;
+	font-size: 13px;
+	line-height: 24px;
+	letter-spacing: 1px;
+	color: #969696;
 }
 .clear_selection {
 	color: #663333;
 	font-size: 12px;
+	line-height: 36px;
+	border-style: hidden;
+	background-color: rgb(255,255,255);
+	cursor: pointer;
+	text-decoration: underline;
 }
-footer button {
+form button {
 	width: 200px;
 	height: 55px;
 	border: 1px solid #e3e3e3;

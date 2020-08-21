@@ -10,11 +10,11 @@
 		<header class="price">
 			<p>Back to 
 				<a href="#">Woman</a>
-			</p><br><!-- проблему отступов решил обойти через br -->
+			</p><br>
 			<h1>The Atelier Tailored Coat</h1><br>
 			<h2>$499.00</h2>
 			<h3>Availability :
-				<span>In stock</span><!-- возможно тут ссылка дожна быть, но задача поставлена была другая -->
+				<span>In stock</span>
 			</h3>
 			<h3>Product Code :
 				<span>#4657</span>
@@ -38,30 +38,31 @@
 		<form action="#" method="post">
 			<div class="select">
 				<label for="select color">color</label><br>
-				<input type="color" name="select color">
+				<p><select name="select color">
+					<option value="">Select Color</option>
+  					<option value="Dark Blue">Dark Blue</option>
+  					<option value="Black">Black</option>
+  					<option value="Red">Red</option>
+  				</select></p>
 			</div>
 			<div class="select">
 				<label for="size">size</label><br>
-				<select name="select size">
+				<p><select name="select size">
 					<option value="">Select Size</option>
   					<option value="s">S</option>
   					<option value="m">M</option>
   					<option value="l">L</option>
   					<option value="xl">XL</option>
-				</select>
+				</select></p>
 			</div>
 			<div class="select">
 				<label for="number">qty</label><br>
-				<input type="number"  value="1" min="1" max="5" step="1" name="number">
+				<p><input type="number"  id="pyat" value="1" min="1" max="5" step="1" name="number"></p>
 			</div>
-				<p>
-					<a class="clear_selection" href="#">CLEAR SELECTION</a>
-				</p><br>
-		</form>
-		<footer>
+			<p><input type="reset" class="clear_selection" value="CLEAR SELECTION"></p>
 			<button class="button_black">Add To Cart</button>
-			<button class="button_white">Add To Wishlist</button>
-		</footer>
+			<button class="button_white">Add To Wishlist</button>	
+		</form>
 	</div>
 </body>
 </html>
