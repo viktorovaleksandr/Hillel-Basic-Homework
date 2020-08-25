@@ -6,15 +6,19 @@ body {
 	width: 425px;
 	margin: 0 auto;
 }
-.price a {
+.main-info a {
 	text-decoration: none;
 	color: #003366;
 	font-size: 14px;
-	font-weight: bold;
+}
+.main-info p {
+	color: #555555;
+	font-size: 14px;
 }
 h1 {
 	font-size: 24px;
 	font-weight: bold;
+	columns: #111;
 }
 h2 {
 	font-size: 24px;
@@ -74,7 +78,7 @@ select {
 	font-size: 12px;
 	line-height: 36px;
 	border-style: hidden;
-	background-color: rgb(255,255,255);
+	background: none;
 	cursor: pointer;
 	text-decoration: underline;
 }
